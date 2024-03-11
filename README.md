@@ -15,23 +15,35 @@ Navigate to the project directory: cd Fuze
 2) Start the server: npm start
 3) Open your web browser and visit http://localhost:3000
    <br>
+   <br>
+   <br>
 **Technologies Used**<br>
-**Frontend:** HTML, CSS, JavaScript <br>
-**Backend**: Node.js, Express.js <br>
-**Database**: MongoDB<br>
-**Other**: React.js, Redux, Bootstrap<br>
-**Contributing** <br>
+<br>
+<li>**Frontend:** HTML, CSS, JavaScript</li> <br>
+<li>**Backend**: Node.js, Express.js</li> <br>
+<li>**Database**: MongoDB</li><br>
+<li>**Other**: React.js, Redux, Bootstrap </li><br>
+<li>**Contributing** </li> <br>
+<br>
 We welcome contributions from the community to enhance [Fuze]. If you'd like to contribute, please follow these guidelines: <br>
 
 Fork the repository.
 <li>Create a new branch: git checkout -b feature-name</li>
-Make your changes and commit them: git commit -m 'Add new feature'
-Push to the branch: git push origin feature-name
-Submit a pull request.
-License
-This project is licensed under the MIT License.
+<br>
+<li>Make your changes and commit them: git commit -m 'Add new feature'</li>
+<br>
+<li>Push to the branch: git push origin feature-name</li>
+<br>
+<li>Submit a pull request.</li>
+<br>
+<br>
 
-Contact
+**License**
+This project is licensed under the MIT License.
+<br>
+**Contact**
+<br>
+<br>
 For any inquiries or feedback, please contact  at [akash.kverma101@gmail.com].
 
 Thank you for using [Fuze]! We hope you enjoy your experience.
