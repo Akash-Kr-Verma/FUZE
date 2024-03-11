@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Protest Riot', sans-serif ;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Protest Riot', sans-serif ;
+}
+
+img{
+  object-fit: cover;
+}
+
+body{
+  background-color:rgb(18, 18, 18);
+  font-family: 'Protest Riot', sans-serif ;
+}
+
+nav{
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #101014;
+}
+nav .on-page{
+  text-decoration: underline;
+}
+
+nav a.logo{
+  font-size: 33px;
+  color: #0f2182;
+  font-weight: 600;
+  font-family: 'Protest Guerrilla', sans-serif;
+}
+
+nav .links a:not(:last-child){
+  margin-right: 20px;
+}
+
+nav .link a:hover{
+  padding: 6px 10px;
+  background-color: #304ffe;
+  border-radius: 10px;
+}
+
+nav .login button{
+  padding: 8px 14px;
+  border: none;
+  margin-right: 14px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+nav .login button.signup{
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+}
+
+nav .login button.login{
+  background-color:#fff;
+  color: #000;
+  border-radius: 8px;
+
+}
+
+nav .login button.login{
+  background-color: #e4e0e0;
+  color: #070707;
+  border-radius: 8px;
+}
+nav .links a:hover{
+  background-color: #304ffe;
+  color: #fff;
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+
+.header{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+     url('create/movie tital page.png');
+     background-size: cover;
+     background-position: center;
+     padding: 10px 8%;
+     position: relative;
+}
+
+.header-content{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 100px;
+    
+    
+}
+
+.header-content h1{
+    font-size:60px ;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.header-content span{
+    font-size:60px ;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    color: #0f2182;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+    align-items: center;
+}
+h1{
+  margin-top: 22px;
+  margin-bottom: 22px;
+  font-weight: 33px;
+  position: relative;
+  left: 10px;
+}
+
+.t2{
+  margin-top: 22px;
+  margin-bottom: 22px;
+  font-weight: 33px;
+  position: relative;
+  left: 10px;
+}
+
+.t3{
+  margin-top: 22px;
+  margin-bottom: 22px;
+  font-weight: 33px;
+  position: relative;
+  left: 10px;
+}
+.t4{
+  margin-top: 22px;
+  margin-bottom: 22px;
+  font-weight: 33px;
+  position: relative;
+  left: 10px;
+}
+
+
+.t4{
+  margin-top: 22px;
+  margin-bottom: 22px;
+  font-weight: 33px;
+  position: relative;
+  left: 10px;
+}
+.movielist{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px 0;
+  position: relative;
+  align-items: center;
+  overflow:hidden ;
+  grid-auto-flow: column;
+
+}
+
+.movie-latest .movielist{
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.movie-latest .movielist .item img{
+  width: 250px;
+  height: 250px;
+  border-radius: 18px;
+}
+
+.movie-latest .movielist .item{
+  padding: 20px ;
+  background:rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.movie-latest .movielist .item .info{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #edecec;
+}
+
+
+.movie-latest .movielist .item .info h5{
+  font-size: 18px;
+}
+
+.movie-latest .movielist .item .info .btc{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.movie-latest .movielist .item .btc i{
+  font-size: 22px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 50%;
+}
+
+.movie-latest .movielist .item .info > p{
+  font-size: 12px;
+  color: #989898;
+}
+
+.movie-latest .movielist .item .bid{
+  padding: 14px 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-latest .movielist .item .bid a{
+  background-color: white;
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 10px;
+  color: #304ffe;
+  font-weight: bold;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.movie-latest .movielist .item .bid a:hover{
+  color: #fff;
+  background-color: #000;
+
+}
+
+.movie-latest .back{
+position: absolute;
+left: 20px;
+height: 50px;
+width: 50px;
+line-height: 50px;
+font-size: larger;
+background: #000;
+text-align: center;
+border-radius: 50%;
+}
+.movie-latest .next{
+  position: absolute;
+  left: 1190px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: larger;
+  background: #000;
+  text-align: center;
+  border-radius: 50%;
+  
+  }
+
+
+
+footer{
+  background-color: #000;
+  color: #fff;
+  padding: 100px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+footer h3{
+  font-size: 48px;
+}
+
+footer .right{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end ;
+  gap: 26px;
+}
+
+footer .right .links{
+  display: flex;
+  gap: 30px;
+}
+
+.movielist{
+  width: 100%;
+  object-fit: contain;
+  transition: transform 450ms;
+}
+.movielist{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.movielist::-webkit-scrollbar{
+  display: none;
+}
+.item:hover{
+  transform:scale(1.08) ;
+}

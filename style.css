@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Riot', sans-serif ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Protest Riot', sans-serif ;
+}
+
+img{
+    object-fit: cover;
+}
+
+body{
+    background-color:rgb(18, 18, 18);
+    font-family: 'Protest Riot', sans-serif ;
+}
+
+nav{
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #101014;
+}
+
+nav a.logo{
+    font-size: 33px;
+    color: #0f2182;
+    font-weight: 600;
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+nav .links a:not(:last-child){
+    margin-right: 20px;
+}
+
+nav .login button{
+    padding: 8px 14px;
+    border: none;
+    margin-right: 14px;
+    cursor: pointer;
+    background-color: transparent;
+}
+nav .link a:hover{
+    padding: 6px 10px;
+    background-color: #304ffe;
+    border-radius: 10px;
+  }
+nav .login button.signup{
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+}
+
+nav .login button.login{
+    background-color:#fff;
+    color: #000;
+    border-radius: 8px;
+
+}
+
+nav .login button.login{
+    background-color: #e4e0e0;
+    color: #070707;
+    border-radius: 8px;
+}
+nav .links a:hover{
+    background-color: #304ffe;
+    color: #fff;
+    border-radius: 10px;
+    padding: 6px 10px;
+  }
+
+header{
+    padding: 0 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .left{
+    width: 700px;
+}
+
+header .left h1{
+    font-size: 80px;
+    color: #fff;
+}
+
+header .left h1 span{
+     color: #0f2182;
+}
+
+header .left p{
+    margin: 40px 0;
+    color: #777;
+}
+
+header .left a{
+    display: flex;
+    align-items: center;
+    background: #165db9;
+    width: 200px;
+    padding: 8px;
+    border-radius: 60px;
+}
+
+header .left a i{
+    background-color: #fff;
+    font-size: 24px;
+    border-radius:50% ;
+    padding: 8px;
+
+}
+
+header .left a span{
+    color: #fff;
+    margin-left: 10px;
+}
+
+header img{
+    width: 300px;
+}
+
+h2.separator{
+    padding: 0 80px;
+    font-size: 40px;
+    margin-top: 40px;
+    color:#fff ;
+}
+h2.sep{
+    padding: 0 80px;
+    font-size: 40px;
+    margin-top: 40px;
+    color:#fff ;
+
+}
+
+.sell-book{
+    padding: 0 80px;
+    margin: 50px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.sell-book .item{
+    padding: 20px ;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.sell-book .item .header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sell-book .item .header i{
+     font-size: 40px;
+}
+
+.sell-book .item .header h5{
+    font-size: 17px;
+}
+
+.sell-book .item p{
+    margin-top:10px;
+    padding: 0 4px;
+}
+
+.book-shop{
+    padding: 0 80px;
+    margin-top: 30px;
+}
+
+.book-shop .cat{
+    display: flex ;
+    gap: 14px;
+}
+
+.book-shop .cat a{
+    background-color: #1f8fd1 ;
+    padding: 8px 14px;
+    font-size: 15px;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}
+
+.book-shop .cat a:hover{
+    color: #fff;
+    background-color: #0f2182;
+}
+
+.book-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.book-shop .book-list{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.book-shop .book-list .item img{
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+.book-shop .book-list .item{
+    padding: 20px ;
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.book-shop .book-list .item .info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #edecec;
+}
+
+
+.book-shop .book-list .item .info h5{
+    font-size: 18px;
+}
+
+.book-shop .book-list .item .info .btc{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.book-shop .book-list .item .btc i{
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 50%;
+}
+
+.book-shop .book-list .item .info > p{
+    font-size: 12px;
+    color: #989898;
+}
+
+.book-shop .book-list .item .bid{
+    padding: 14px 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book-shop .book-list .item .bid a{
+    background-color: white;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    color: #304ffe;
+    font-weight: bold;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.book-shop .book-list .item .bid a:hover{
+    color: #fff;
+    background-color: #000;
+
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+footer h3{
+    font-size: 48px;
+}
+
+footer .right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end ;
+    gap: 26px;
+}
+
+ footer .right .links{
+    display: flex;
+    gap: 30px;
+ }
+
+ footer .right .links a{
+    color: #989898;
+    transition: color 0.3s ease;
+ }
+
+ footer .right .links a:hover{
+    color: #fff;
+ }
+
+ footer .right .social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+footer .right .social i{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer .right .social i:hover{
+    color: #304ffe;
+}
+
+footer .right p{
+    font-size: 13px;
+    color: #777;
+}
+
+@media screen and (max-width:1400px){
+
+    nav,
+    header,
+    h2.separator,
+    .sell-book,
+    .book-shop,
+    .sellers{
+        padding: 0 40px;
+    }
+
+ header .left h1{
+    font-size: 60px;
+ }
+
+ header img{
+    width: 300px;
+ }
+
+ .book-shop .book-list .item img{
+    width: 220px;
+    height: 220px;
+ }
+
+ footer{
+    padding: 100px 40px;
+ }
+
+ footer h3{
+    font-size: 38px;
+ }
+}
+
+@media screen and(max-width: 1200px){
+    header .left h1{
+        font-size: 48px;
+    }
+
+    header img{
+        width: 480px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

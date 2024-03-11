@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Protest Riot', sans-serif ;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Protest Riot', sans-serif ;
+}
+
+img{
+  object-fit: cover;
+}
+
+body{
+  background-color:rgb(18, 18, 18);
+  color: rgba(187, 177, 231, 0.62);
+  font-family: 'Protest Riot', sans-serif ;
+}
+
+nav{
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #101014;
+}
+nav .link a:hover{
+  padding: 6px 10px;
+  background-color: #304ffe;
+  border-radius: 10px;
+}
+
+nav a.logo{
+  font-size: 33px;
+  color: #0f2182;
+  font-weight: 600;
+  font-family: 'Protest Guerrilla', sans-serif;
+}
+
+nav .links a:not(:last-child){
+  margin-right: 20px;
+}
+
+nav .login button{
+  padding: 8px 14px;
+  border: none;
+  margin-right: 14px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+nav .login button.signup{
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+}
+
+nav .login button.login{
+  background-color:#fff;
+  color: #000;
+  border-radius: 8px;
+
+}
+
+nav .login button.login{
+  background-color: #e4e0e0;
+  color: #070707;
+  border-radius: 8px;
+}
+
+header{
+    padding: 0 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.books{
+  padding: 50px 12px;
+  font-size: 22px;
+}
+.row{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+.text-col{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.img-col{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+
+.img-col img{
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+.video-col video{
+  max-width: 100%;
+  height: auto;
+  margin-right: 30px;
+  object-fit: cover;
+}
+
+.books h2{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+
+}
+
+nav .links a:hover{
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 10px;
+  transition: 0.3s;
+}
+footer{
+  background-color: #000;
+  color: #fff;
+  padding: 100px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer h3{
+  font-size: 48px;
+}
+
+footer .right{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end ;
+  gap: 26px;
+}
+
+footer .right .links{
+  display: flex;
+  gap: 30px;
+}
+
+footer .right .links a{
+  color: #989898;
+  transition: color 0.3s ease;
+}
+
+footer .right .links a:hover{
+  color: #fff;
+}
+
+footer .right .social{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .right .social i{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+footer .right .social i:hover{
+  color: #304ffe;
+}
+
+footer .right p{
+  font-size: 13px;
+  color: #777;
+}
+
+@media (max-width: 1200px) {
+  nav {
+    padding: 0 30px;
+  }
+
+  .books {
+    padding: 30px 12px;
+  }
+
+  .text-col,
+  .img-col {
+    flex-basis: 100%;
+  }
+
+  .video-col video {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0 12px;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .books {
+    padding: 20px 12px;
+  }
+
+  .row {
+    padding: 30px 0;
+  }
+
+  .text-col,
+  .img-col {
+    flex-basis: 100%;
+  }
+
+  .video-col video {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  footer {
+    padding: 50px 12px;
+  }
+}
+
