@@ -1,4 +1,5 @@
-Welcome to [FUZE WEBSITE]
+<h1>Welcome to [FUZE WEBSITE]</h1>
+<br>
 [FUZE] is a platform designed to provide users with a seamless experience for watching movies, reading books, and listening to music, all in one place. Whether you're a movie buff, a bookworm, or a music enthusiast, [FUZE] has something for everyone.
 
 Features
@@ -13,16 +14,17 @@ Navigate to the project directory: cd Fuze
 1) Install dependencies: npm install
 2) Start the server: npm start
 3) Open your web browser and visit http://localhost:3000
-**Technologies Used**
-**Frontend:** HTML, CSS, JavaScript
-**Backend**: Node.js, Express.js
-**Database**: MongoDB
-**Other**: React.js, Redux, Bootstrap
-Contributing
-We welcome contributions from the community to enhance [Project Name]. If you'd like to contribute, please follow these guidelines:
+   <br>
+**Technologies Used**<br>
+**Frontend:** HTML, CSS, JavaScript <br>
+**Backend**: Node.js, Express.js <br>
+**Database**: MongoDB<br>
+**Other**: React.js, Redux, Bootstrap<br>
+**Contributing** <br>
+We welcome contributions from the community to enhance [Fuze]. If you'd like to contribute, please follow these guidelines: <br>
 
 Fork the repository.
-Create a new branch: git checkout -b feature-name
+<li>Create a new branch: git checkout -b feature-name</li>
 Make your changes and commit them: git commit -m 'Add new feature'
 Push to the branch: git push origin feature-name
 Submit a pull request.
