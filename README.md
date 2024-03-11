@@ -8,7 +8,7 @@ Features
 Installation
 To get started with [FUZE], simply follow these steps:
 
-**Clone the repository:** git clone https://github.com/your-username/Fuze.git
+**Clone the repository:** git clone https://github.com/Akash-Kr-Verma/Fuze.git
 Navigate to the project directory: cd Fuze
 1) Install dependencies: npm install
 2) Start the server: npm start
@@ -30,6 +30,6 @@ License
 This project is licensed under the MIT License.
 
 Contact
-For any inquiries or feedback, please contact [Your Name] at [your-email@example.com].
+For any inquiries or feedback, please contact  at [akash.kverma101@gmail.com].
 
-Thank you for using [Project Name]! We hope you enjoy your experience.
+Thank you for using [Fuze]! We hope you enjoy your experience.
