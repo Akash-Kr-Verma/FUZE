@@ -49,10 +49,12 @@ nav .login button{
     cursor: pointer;
     background-color: transparent;
 }
-nav .link a:hover{
-    padding: 6px 10px;
+nav .links a:hover{
     background-color: #304ffe;
-    border-radius: 10px;
+    color: #fff;
+    border-radius: 40px;
+    padding: 6px 10px;
+    transition: 0.3s;
   }
 nav .login button.signup{
     background-color: #000;
@@ -190,18 +192,21 @@ h2.sep{
     gap: 14px;
 }
 
-.book-shop .cat a{
+.book-shop .cat .tab-links{
     background-color: #1f8fd1 ;
     padding: 8px 14px;
     font-size: 15px;
     border-radius: 14px;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
-.book-shop .cat a:hover{
+.book-shop .cat .tab-links:hover{
     color: #fff;
     background-color: #0f2182;
 }
+
+
 
 .book-list{
     display: grid;
@@ -216,6 +221,30 @@ h2.sep{
     justify-content: space-between;
     gap: 20px;
 }
+.tab-content{
+    display: none;
+}
+
+.tab-content.active-tab{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.book-list{
+    width: 100%;
+    object-fit: contain;
+    transition: transform 450ms;
+  }
+  .book-list{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  .book-list::-webkit-scrollbar{
+    display: none;
+  }
 
 .book-shop .book-list .item img{
     width: 100%;
@@ -242,6 +271,7 @@ h2.sep{
 
 .book-shop .book-list .item .info h5{
     font-size: 18px;
+    color: seashell;
 }
 
 .book-shop .book-list .item .info .btc{
@@ -268,11 +298,13 @@ h2.sep{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    left: 70px;
 }
 
 .book-shop .book-list .item .bid a{
     background-color: white;
-    padding: 6px 10px;
+    padding: 6px 20px;
     font-size: 13px;
     border-radius: 10px;
     color: #304ffe;
